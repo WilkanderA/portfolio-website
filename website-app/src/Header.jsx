@@ -15,7 +15,7 @@ const Header = memo(function Header() {
         <header className="header">
             <div className="header-container">
                 <div className="logo">
-                    <h1>Portfolio</h1>
+                    <h1>Wilkander</h1>
                 </div>
                 <nav className="nav">
                     <button onClick={handleAboutClick} className="nav-link">About</button>
