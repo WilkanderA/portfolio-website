@@ -1,4 +1,5 @@
 import { memo } from 'react';
+import profileImage from './assets/Cherry Blossom.jpg';
 
 const About = memo(function About() {
     return (
@@ -6,7 +7,7 @@ const About = memo(function About() {
             <div className="container">
                 <div className="about-hero">
                     <div className="about-intro">
-                        <h3 className="position-tag">Software Engineer</h3>
+                        <h3 className="position-tag">Full-Stack Developer</h3>
                         <h1 className="hero-title">
                             <span className="greeting">Hello, I'm</span>
                             <span className="name-highlight">Wilkander Aleman</span>
@@ -18,7 +19,7 @@ const About = memo(function About() {
                     <div className="about-image">
                         <div className="image-container">
                             <div className="image-placeholder">
-                                <span>WA</span>
+                                <img src={profileImage} alt="Profile-picture" id="profile-picture"/>
                             </div>
                             <div className="image-decoration"></div>
                         </div>
@@ -38,6 +39,7 @@ const About = memo(function About() {
                     </div>
                 </div>
                 
+
                 <div className="about-actions">
                     <button className="btn btn-primary">
                         <span>Download Resume</span>
@@ -73,6 +75,7 @@ const About = memo(function About() {
                         <div className="highlight-label">Client Satisfaction</div>
                     </div>
                 </div>
+
             </div>
         </section>
     );

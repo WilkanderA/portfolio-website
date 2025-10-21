@@ -10,17 +10,14 @@ const Footer = memo(function Footer() {
                         <h3>Let's Connect</h3>
                         <p>I'm always open to discussing new opportunities and interesting projects.</p>
                         <div className="contact-links">
-                            <a href="mailto:your.email@example.com" className="contact-link">
-                                📧 your.email@example.com
+                            <a href="mailto:wilkanderbusiness@gmail.com" className="contact-link">
+                                📧 Email
                             </a>
-                            <a href="https://linkedin.com/in/yourprofile" className="contact-link" target="_blank" rel="noopener noreferrer">
+                            <a href="https://linkedin.com/in/wilkander" className="contact-link" target="_blank" rel="noopener noreferrer">
                                 💼 LinkedIn
                             </a>
-                            <a href="https://github.com/yourusername" className="contact-link" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/WilkanderA" className="contact-link" target="_blank" rel="noopener noreferrer">
                                 🐙 GitHub
-                            </a>
-                            <a href="https://twitter.com/yourusername" className="contact-link" target="_blank" rel="noopener noreferrer">
-                                🐦 Twitter
                             </a>
                         </div>
                     </div>
